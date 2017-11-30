@@ -1,6 +1,9 @@
+require 'pry'
+
 class Genre
 
-  attr_accessor :name
+  attr_reader :name
+
 
   def initialize(name)
     @name = name
@@ -20,5 +23,4 @@ class Genre
       song.artist
     end
   end
-
 end
